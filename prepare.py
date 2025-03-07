@@ -1,5 +1,4 @@
 from csv import DictReader, DictWriter
-from sklearn.neighbors import KNeighborsClassifier
 
 file = open("insurance.csv", "r")
 dictionary = DictReader(file)
